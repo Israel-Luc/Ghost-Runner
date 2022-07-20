@@ -29,7 +29,7 @@ function setup() {
   ghost.scale = 0.3;
   ghost.addImage("ghost", ghostImg);
 
-  ghost.debug = true;
+  ghost.debug = false;
   ghost.setCollider("circle", 0, 0, 95  );
 }
 
